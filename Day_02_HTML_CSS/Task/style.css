@@ -1,0 +1,82 @@
+/*To Center The body*/
+body
+{
+    background-color: antiquewhite ;
+    margin-top: 5%;
+    margin-left: 19%;
+
+}
+/*Set font for the header*/
+h1
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 25%;
+    font-size: xx-large;
+}
+/*to adjust the form border and width */
+form
+{
+    border: 3px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 10px;
+    padding-left: 6%;
+    width: 75%;
+}
+/* for the entire labels*/
+label
+{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+/* adjust text area pos and size with all margins and texts*/
+textarea
+{
+    margin-bottom: 2%;
+    margin-top: .5%;
+    font-size: medium;
+    width: 90%;
+}
+/*set the text and margin for the inputs*/
+input
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    width: 90%;
+    margin-bottom: 2%;
+    margin-top: .5%;
+}
+/*adjust the file button*/
+input[type="file"]::file-selector-button
+{
+    background-color: gold;
+    border: 1;
+    border-radius: 30px;
+    margin-bottom: 2%;
+    margin-top: .5%;
+    font-size: medium;
+
+}
+/*adjust the submit button*/
+input[type="submit"]
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    background-color: gold;
+    border: 1;
+    border-radius: 30px;
+    width: 11%;
+}
+/*adjust the radio alone*/
+input[type="radio"]
+{
+    margin-bottom: 2%;
+    margin-top: .5%;
+    width: 1%;
+}
+/*Select the size of radio button */
+label[name="Kidselect"]
+{
+    font-size: large;
+}

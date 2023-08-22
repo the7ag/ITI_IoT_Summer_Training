@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ACTION = Where to go   get == data is sent with the request in the url 
+    -->
+    <form action="/Day_1_HTML/Session.html" method="get">
+        <fieldset>
+            <legend>Login form</legend>
+            <label for="email" id="email-label" >Email:</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+            <label for="">First name &nbsp; </label>
+            <input type="text" name="" id="" value="name" maxlength="9" required>
+            <input type="date" name="" id="" >
+            <input type="range" name="" id="" >
+            <input type="checkbox" name="" id="" >
+        </fieldset>
+        <div class="myclass"> 
+            <input list="names">
+            <datalist id="names">
+                <option value="Mohamed"></option>
+                <option value="Mohamed"></option>
+                <option value="Mohamed"></option>
+                <option value="Mohamed"></option>
+            </datalist>
+            <label for="">Course : </label>
+            <select size="2">
+                <option value="">js</option>
+                <option value="" selected>css</option>
+                <option value="">html</option>
+            </select>
+        </div>
+        <table>
+            <tr>
+                <th>name</th>
+                <th>age</th>
+            </tr>
+            <tr>
+                <td>Mohamed</td>
+                <td>22</td>
+            </tr>
+        </table>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos animi accusantium culpa non est voluptates. Blanditiis at id illo culpa animi ab, reprehenderit, quis, officiis repellendus nemo quae harum repellat.
+        </p>
+        <a href="https://www.youtube.com/watch?v=QPM6a203hWU" target="_blank">hehes</a>
+        <br>
+        <ul>
+            <li>mohamed</li>
+            <li>ahmed</li>
+        </ul>
+        <input type="submit" value="submit">
+        <button type="reset" class="reset-button">reset</button>
+    </form>
+</body>
+</html>

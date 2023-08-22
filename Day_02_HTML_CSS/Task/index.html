@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload a new video</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <h1>Upload A New Video</h1>
+    <!-- Form With Action To go to confirm -->
+    <form action="confirm.html" method="get">
+
+        <!-- Title and input for it -->
+        <label for="Title">Title:</label>
+        <br>
+        <input type="text" name="title" id="title" maxlength="20"  required>
+        <br>
+
+        <!-- Description and text area for it -->
+        <label for="textarea">Description:</label>
+        <br>
+        <textarea name="textarea id="textarea" cols="100%" rows="5%"></textarea>
+        <br>
+
+        <!-- Choose a Video and input for it -->
+        <label for="VidSelect">Select a video to Upload:</label>
+        <br>
+        <input type="file" name="VidSelect" id="VidSelect" required>
+        <br>
+         <!-- Date and input for it -->
+        <label for="date">Please Select a publish date:</label>
+        <br>
+        <input type="date" name="date" id="date" required>
+        <br>
+
+        <!-- Radio buttons and input for it -->
+        <label for="Kidselect">Is This Video for kids?</label>
+        <br>
+        <input type="radio" name="Kidselect" id="Yes" value="Yes" >
+        <label for="Yes" name="Kidselect">Yes</label>
+        <input type="radio" name="Kidselect" id="No" value="No" checked >
+        <label for="No" name="Kidselect">No</label>
+        <br>
+
+        <!-- Final Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

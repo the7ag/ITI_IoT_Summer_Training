@@ -1,0 +1,43 @@
+/* p:first-child
+{
+    background-color: red;
+}
+input:focus
+{
+    outline: black;
+    outline-style: solid;
+    outline-width: 2px;
+}
+p.para:first-child span
+{
+    background-color: azure;
+} */
+/* aside
+{
+    float: left;
+}
+section
+{
+    float: right;
+}
+footer
+{
+    clear: both;
+} */
+.flex-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.grid-container
+{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 20px;
+}
+header,nav,footer
+{
+    grid-column: 1 / span 2;
+}
+

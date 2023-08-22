@@ -1,0 +1,110 @@
+ul {
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 0;
+  }
+li{
+    padding-left: var(--icon-space);
+  }  
+li:before {
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+  }
+li[name="Home"]::before
+{
+    content: "\f015";
+}
+li[name="Shorts"]::before
+{
+    content: "\f03d";
+}
+li[name="SUB"]::before
+{
+    content: "\f16a";
+}
+li[name="LIB"]::before
+{
+    content: "\f144";
+}
+li[name="HIS"]::before
+{
+    content: "\f017";
+}
+li[name="VIDS"]::before
+{
+    content: "\f02b";
+}
+li[name="LATE"]::before
+{
+    content: "\f133";
+}
+li[name="DOWN"]::before
+{
+    content: "\f019";
+}
+li[name="LIKE"]::before
+{
+    content: "\f164";
+}
+aside ul li:hover
+{
+    border-style: solid;
+    border-radius: 3px;
+    border-color: black;
+}
+.grid-container
+{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+section
+{
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 20px;
+}
+img[name="IMG"]
+{
+    width: 1150px;
+    height: 300px;
+    grid-column: 1 / span 2;
+}
+div[name="info"]
+{
+    grid-column: 1/span 2;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row: 2;
+    height: auto;
+    width: auto;
+}
+img[name="PFP"]
+{
+    grid-column: 1;
+    object-fit: scale-down;
+    height: 320px ;
+    width: 320px;
+}
+p[name="Details"]
+{
+grid-column:2 ;
+text-align-last: left;
+}
+input[name="SUB"]
+{
+    grid-column: 3;
+    object-fit: scale-down;
+    height: 10%;
+    width: 50%;
+}
+ul[name="PLAYLIST"]
+{
+grid-column: 1;
+grid-row: 3;
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto;
+}
