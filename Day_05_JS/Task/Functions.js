@@ -1,37 +1,37 @@
-let Task1=function(input)
+let changeCase=function(input)
 {
-    Result = '';
+    result = '';
     for(let i=0 ; i<input.length ; i++)
     {
         if(input[i]==input[i].toLowerCase())
         {
-            Result += input[i].toUpperCase();
+            result += input[i].toUpperCase();
         }
         else
         {
-            Result += input[i].toLowerCase();
+            result += input[i].toLowerCase();
         }
     }
     return Result;
 }
-let Task2=function(input)
+let setFirstLetterUpper=function(input)
 {
-    let Result='';
+    let result='';
     let splitInput = input.split(' ');
     for(let i = 0 ; i < splitInput.length ; i++)
     {
-        Result += splitInput[i][0].toUpperCase();
+        result += splitInput[i][0].toUpperCase();
         for(let j = 1 ; j < splitInput[i].length ; j++)
         {
-            Result += splitInput[i][j].toLowerCase();
+            result += splitInput[i][j].toLowerCase();
         }
-        Result += ' ';
+        result += ' ';
     }
-    return Result;
+    return result;
 }
-let Task3 = function(input)
+let longestWord = function(input)
 {
-    let Result='';
+    let result='';
     let max=0;
     let splitInput = input.split(' ');
     for(let i=0 ; i < splitInput.length ; i++)
@@ -39,8 +39,8 @@ let Task3 = function(input)
         if(max < splitInput[i].length)
         {
             max = splitInput[i].length;
-            Result=splitInput[i];
+            result=splitInput[i];
         }
     }
-    return Result;
+    return result;
 }
