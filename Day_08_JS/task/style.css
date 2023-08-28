@@ -1,0 +1,23 @@
+.main {
+    display: grid;
+    place-items: center; 
+  }
+button{
+    background-color: aqua;
+    border-radius: 5px;
+    margin: 10px;
+    
+  }
+div.main
+{
+    border-width: 3 px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: lightgray;
+    background-color: aqua;
+}
+h1.main
+{
+    font-size: xx-large;
+}
+
